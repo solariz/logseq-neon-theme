@@ -1,0 +1,28 @@
+{
+    "name": "logseq-neon-theme",
+    "author": "@solariz",
+    "version": "0.1",
+    "description": "Vibrant Dark Logseq theme",
+    "logseq": {
+        "themes": [
+            {
+                "name": "NEON Theme",
+                "url": "./neon-theme.css",
+                "description": "Vibrant Neon Dark Theme"
+            },
+            {
+                "name": "NEON Theme with Bullet threading",
+                "url": "./with-bullet-threading.css",
+                "description": "Bullet threading enabled Vibrant Neon Dark Theme"
+            }
+        ],
+        "id": "neon_theme",
+        "title": "NEON theme",
+        "icon": "./img/logo.jpg"
+    },
+    "license": "unlicense",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/solariz/logseq-neon-theme.git"
+    }
+}
