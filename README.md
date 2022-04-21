@@ -1,6 +1,7 @@
 # logseq-neon-theme
 Neon inspired Theme for logseq
 
+
 Started a month ago to use [LogSeq](https://github.com/logseq/logseq) and missing on a shiny dark Theme I actually like to use daily. Not only for journal, also for code and snippets. Some existings dark themes lack a bit in vibrant visibility, so I created this one.
 
 ## Theme Features
@@ -9,7 +10,8 @@ Started a month ago to use [LogSeq](https://github.com/logseq/logseq) and missin
 - bullet threading
 
 ## Screenshots
-- TODO 
+![Screenshot](img/screenshot.png "Theme Screenshot")
+
 
 ## Customization
 - You can always change variables in the custom.css by opening Logseq settings and click "Edit custom.css" this will override the Themes defaults. Simple example to adjust the overall Font Size add this:
