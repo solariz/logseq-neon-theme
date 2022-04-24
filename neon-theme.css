@@ -502,3 +502,120 @@ div[data-refs-self*='"card"'] {
 #head>div.r.flex>div>div.dropdown-wrapper>div>a {
     background-color: var(--ls-secondary-background-color);
 }
+
+
+/* Further Glows on some elemets */
+b, strong {
+    text-shadow: -0.2rem -0.2rem 1rem transparent,
+    0.2rem 0.2rem 2rem transparent,
+    0 0 1.2rem var(--accent-4-muted);
+}
+
+
+/* Custom Tag Rendering Emojis */
+a.tag[data-ref="star"i]::before {
+    content: '⭐️';
+    display: inline-block;
+    width: 2em;
+    border-radius: 12px;
+    height: 1.5em;
+    visibility: visible;
+    background-color: brown;
+}
+
+a.tag[data-ref="star"i] {
+    visibility: hidden;
+    width: 44px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+a.tag[data-ref="idea"i]::before {
+    content: '💡';
+    display: inline-block;
+    width: 2em;
+    border-radius: 12px;
+    height: 1.5em;
+    visibility: visible;
+    background-color: slategray;
+}
+
+a.tag[data-ref="idea"i] {
+    visibility: hidden;
+    width: 44px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* ==== colorful indent levels ===*/
+/* See Forum: https: //discuss.logseq.com/t/css-mod-colorful-indentation-lines/229 */
+.block-children {
+    border-left: 0 !important;
+}
+
+.block-children [level="2"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-1-muted);
+    border-radius: 6px;
+}
+
+.block-children [level="3"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-2-muted);
+    border-radius: 6px;
+}
+
+.block-children [level="4"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-3-muted);
+    border-radius: 4px;
+}
+
+.block-children [level="5"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-4-muted);
+    border-radius: 4px;
+}
+
+.block-children [level="6"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-5-muted);
+    border-radius: 4px;
+}
+
+.block-children [level="7"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-6-muted);
+    border-radius: 4px;
+}
+
+.block-children [level="8"] {
+    border-left: 1px ridge;
+    border-left-color: var(--accent-4);
+    border-radius: 4px;
+}
+
+/* ==== fix spacing - TWEAK VALUES ! ===*/
+.ls-block {
+    margin: -2px 0px -2px -1px !important;
+    padding: 4px 1px !important;
+}
+
+
+/* Fixes */
+
+/* Plugin Option Heading */
+div.desc-item>h2>code,div.desc-item>h2>strong {
+    background-color: transparent !important;
+    font-size: 0.5em;
+}
+
+
+/* Marketplace Headings */
+div.cp__plugins-marketplace-cnt>div>div>div.r>h3,div.cp__plugins-item-lists>div>div.r>h3 {
+    font-size: 1.3em !important;
+    background-image: linear-gradient(var(--gradientDegree), var(--accent-3-muted) 0, var(--accent-4-muted) 40%);
+    text-shadow: none !important;
+}
+
+
