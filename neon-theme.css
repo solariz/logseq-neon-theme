@@ -600,3 +600,22 @@ a.tag[data-ref="idea"i] {
     margin: -2px 0px -2px -1px !important;
     padding: 4px 1px !important;
 }
+
+
+/* Fixes */
+
+/* Plugin Option Heading */
+div.desc-item>h2>code,div.desc-item>h2>strong {
+    background-color: transparent !important;
+    font-size: 0.5em;
+}
+
+
+/* Marketplace Headings */
+div.cp__plugins-marketplace-cnt>div>div>div.r>h3,div.cp__plugins-item-lists>div>div.r>h3 {
+    font-size: 1.3em !important;
+    background-image: linear-gradient(var(--gradientDegree), var(--accent-3-muted) 0, var(--accent-4-muted) 40%);
+    text-shadow: none !important;
+}
+
+
