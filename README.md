@@ -12,15 +12,26 @@ Started a month ago to use [LogSeq](https://github.com/logseq/logseq) and missin
 ## Screenshots
 ![Screenshot](img/screenshot.png "Theme Screenshot")
 
+Optional Rainbow Indentation:
+![Screenshot](img/screenshot_20220427-115320.png "Rainbow Indentation")
+
+
 
 ## Customization
-- You can always change variables in the custom.css by opening Logseq settings and click "Edit custom.css" this will override the Themes defaults. Simple example to adjust the overall Font Size add this:
+- You can always change variables in the custom.css by opening Logseq settings and click "Edit custom.css" this will override the Themes defaults. 
+Simple example to adjust the overall Font Size or turn off the rainbow indent Lines:
 
 ```css
 :root {
   --ls-page-text-size: 18px;
+  --indent-px: 0;
 }
 ```
+- `--ls-page-text-size` General default Font Size
+- `--indent-px` set to 0 to turn of the Rainbow Ident Lines
+
+
+
 
 ## Issues?
 Any Issue or like to improve something? Feel free to use git pull or issue. You can also drop me a note on Twitter [@solariz](https://twitter.com/solariz)
