@@ -131,7 +131,7 @@ html[data-theme="dark"] {
     --ls-search-icon-color: var(--white-hover);
     --ls-a-chosen-bg: var(--light-background);
     --ls-right-sidebar-code-bg-color: var(--light-background);
-    --ls-selection-background-color: var(--comment);
+    --ls-selection-background-color: var(--ls-border-color);
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-guideline-color: var(--ls-border-color);
 
@@ -328,13 +328,13 @@ a.tag:hover {
 }
 
 html[data-theme="dark"] .CodeMirror {
-    font-family: 'Fira Code', monospace;
-    line-height: 1.6;
+    font-family: 'Fira Code NF', 'Fira Code', monospace;
+    line-height: 1.3;
     background: var(--dark-background);
     color: var(--white);
-    margin-top: -1.3em;
     box-shadow: none;
     -webkit-box-shadow: none;
+    border: 0;
 }
 
 html[data-theme="dark"] .cm-s-default .CodeMirror,
@@ -368,13 +368,17 @@ html[data-theme="dark"] .CodeMirror .CodeMirror-linenumber {
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-selected {
-    background: rgba(255, 240, 240, 0.1);
+    background: rgba(255, 240, 240, 0.3);
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-line {
     box-shadow: none;
 }
 
+html[data-theme="dark"] .CodeMirror .CodeMirror-scroll {
+    padding-top: 8px !important;
+    padding-bottom: 52px !important;
+}
  
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-line::selection,
@@ -619,3 +623,12 @@ div.cp__plugins-marketplace-cnt>div>div>div.r>h3,div.cp__plugins-item-lists>div>
 }
 
 
+input::selection {
+    background-image: none !important;
+    color: white !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    text-rendering: optimizeLegibility;
+    background-color: rgba(77,17,156,.5);
+    border: 1px solid #fff;
+}
