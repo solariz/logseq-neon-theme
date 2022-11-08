@@ -205,10 +205,11 @@ h4 {
     background-clip: text;
     -webkit-background-clip: text;
     font-family: "PT Sans Narrow", sans-serif;
+    margin: -0.4em 0 0 !important;
 }
 
 h1 {
-    font-size: 2.5em !important;
+    font-size: 2.5em;
     background-image: linear-gradient(var(--gradientDegree),
             var(--accent-1-muted) 0,
             var(--accent-4-muted) 25%);
@@ -254,6 +255,16 @@ h4 {
     background: transparent;
     font-size: 1.5em;
     text-shadow: none;
+}
+.title.ls-page-title h1 {
+    color: var(--ls-title-text-color,#222) !important;
+    -webkit-text-fill-color: var(--orange) !important;
+    font-weight: 400;
+    background: transparent;
+    font-size: 1.75em !important;
+    text-shadow: -0.2rem -0.2rem 0rem transparent,
+        0.2rem 0.2rem 0rem transparent,
+        0 0 0.5rem var(--accent-4-muted);
 }
 
 /* Priority tag styling */

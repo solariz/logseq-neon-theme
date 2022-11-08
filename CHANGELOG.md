@@ -1,5 +1,9 @@
 # logseq-neon-theme Changelog
 
+## 2022/11/08, v0.4
+- fix issue of semi transparent title in new logseq versions
+- fix issue of missplaced headings in new logseq versions
+
 ## 2022/09/24, v0.3
 - fix issue #2 Title not showing on edit
 - fix issue #2 Code blocks obscuring previous block
