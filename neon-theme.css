@@ -267,6 +267,10 @@ h4 {
         0 0 0.5rem var(--accent-4-muted);
 }
 
+h1>div.page-title-sizer-wrapper {
+    -webkit-text-fill-color: var(--orange) !important;
+}
+
 /* Priority tag styling */
 .priority {
     color: var(--ls-tag-text-color);

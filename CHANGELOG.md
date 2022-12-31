@@ -1,4 +1,6 @@
 # logseq-neon-theme Changelog
+## 2022/12/31, v0.5
+- fix issue with another blurry header
 
 ## 2022/11/08, v0.4
 - fix issue of semi transparent title in new logseq versions
